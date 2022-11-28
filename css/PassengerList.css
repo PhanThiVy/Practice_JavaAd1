@@ -1,0 +1,50 @@
+section nav ul #passenger {
+    background-color: rgba(243, 248, 245, 0.123);
+}
+section nav ul #passenger_sup #passengerList a{
+    color:black;
+}
+table, th, td{
+    border:1px solid black;
+}
+table{
+    border-collapse:collapse;
+}
+#myTable{
+    width: 100%;
+    border: 1px solid black;
+}
+/* table tr:nth-child(odd){
+    background-color:#eee;
+}
+table tr:nth-child(even){
+    background-color:white;
+} */
+table tr:nth-child(1){
+    background-color: #98bddd;
+}
+th{
+    padding: 8px 0;
+    font-size: small;
+}
+table th:nth-child(1){
+    width: 10%;
+}
+table th:nth-child(2){
+    width: 22%;
+}
+table th:nth-child(3){
+    width: 22%;
+}
+table th:nth-child(5){
+    width: 22%;
+}
+table th:nth-child(6),th:nth-child(7){
+    width: 5%;
+}
+/* table th:nth-child(5){
+    width: 200px;
+} */
+
+
+

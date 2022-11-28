@@ -1,0 +1,125 @@
+section nav ul #passenger {
+    background-color: rgba(243, 248, 245, 0.123);
+}
+section nav ul #passenger_sup #insert_passenger a{
+    color:black;
+}
+/* form */
+form {
+    width: 60%;
+    padding: 10px 20px;
+    background-color: rgba(4, 5, 91, 0.225);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px  #34343582 ;
+}
+form h1{
+    color: #2d3c5af1;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 30px;
+}
+form div{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+form div label{
+    width: 220px;
+}
+form div ion-icon{
+   position: absolute;
+   left: 222px;
+   top: 27px;
+   color: #757575;
+   width: 15px;
+}
+form div input{
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+form .error{
+    margin-left: 220px;
+    color: red;
+    font-size: small;
+    padding: 0;
+}
+.redBorder{
+    border: solid 1px red;
+}
+form .submit .btn{
+    margin: 20px 150px;
+    border-radius: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2d3c5af1;
+    transition: all 0.8s  ;
+}
+form .submit .btn:hover{
+    background-color: #2d3c5af1;
+    color: #eaebed;
+}
+
+/* //table  */
+/* section nav ul #passenger {
+    background-color: rgba(243, 248, 245, 0.123);
+}
+section nav ul #passenger_sup #passengerList a{
+    color:black;
+} */
+table, th, td{
+    border:1px solid black;
+}
+table{
+    border-collapse:collapse;
+    display: none;
+    width:100%;
+}
+/* #myTable{
+    width: 100%;
+    border: 1px solid black;
+} */
+/* table tr:nth-child(odd){
+    background-color:#eee;
+}
+table tr:nth-child(even){
+    background-color:white;
+} */
+table tr:nth-child(1){
+    background-color: #98bddd;
+    width: 100%;
+}
+th{
+    padding: 8px 0;
+    font-size: small;
+}
+table th:nth-child(1){
+    /* width: 10%; */
+    width: 100px;
+}
+table th:nth-child(2),th:nth-child(3),th:nth-child(5){
+    /* width: 22%; */
+    width: 250px;
+}
+/* table th:nth-child(3){
+    width: 22%;
+} */
+table th:nth-child(4){
+    /* width: 14%; */
+    width: 150px;
+}
+/* table th:nth-child(5){
+    width: 22%;
+} */
+/* table th:nth-child(6),th:nth-child(7){
+    width: calc(100% - 1000px);
+} */
+
+
+
+
+
